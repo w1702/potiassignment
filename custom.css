@@ -1,0 +1,129 @@
+/* GLOBAL RESET */
+*{
+	padding: 0;
+	margin: 0;
+}
+/* Get older browsers to show new html5 tags properly */
+header, nav, main, footer{
+	display: block;
+}
+
+body{
+	font-family: Helvetica, Arial;
+}
+
+#content{
+	width: 90%;
+	margin: auto;
+	padding: 1%;
+}
+
+
+table td{
+	padding-right: 1%;
+}
+
+li{
+	list-style-type: none;
+}
+
+h1{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.red{
+	color: red;
+}
+
+.clear{
+	clear: both;
+}
+
+#col1{
+	width: 750px;
+	float: left;
+}
+
+#col1 .t3 li img{
+	cursor: pointer;
+}
+
+#col2{
+	margin-left: 750px;
+	padding: 1%;
+}
+
+#col2-top h2, #col2-bottom h2{
+	padding-bottom: 5px;
+}
+
+#col2-top{
+	padding-bottom: 20px;
+}
+
+img, input[type=image]{
+	background-color: #125792;
+}
+
+/* Toggle menu items */
+#parentList{
+	font-size: 0;
+}
+
+/* Set widths of all buttons */
+.t1{
+	width: 182px;
+	/* background-color: #125792; */
+
+}
+.t2{
+	width: 182px;
+	/* background-color: #125792; */
+	height: 100%;
+}
+.t3{
+	width: 362px;
+	height: 100%;
+}
+
+/* Display t1 elements inline */
+/*.t1{	display: inline;}*/
+
+/* Display t3 input elements as block */
+.t3 input{display: block;}
+
+/* Hide elements */
+.t2, .t3{display: none;}
+
+.default{
+	display: block;
+}
+
+/* On Hover, display elements */
+.t1:hover > ul {
+	display: block;
+}
+.t2 li:hover > .t3{
+	display: block;
+}
+
+/* #default:hover .t3{
+	display:block;
+} */
+
+#parentList{
+	position: absolute;
+}
+
+.t2{
+	position: absolute;
+	top: 0px;
+	left: 182px;
+
+}
+.t3{
+	position: absolute;
+	top: 0px;
+	left: 182px;
+}
